@@ -1,3 +1,9 @@
+## Wednesday, March 3, 2021, 5:23:11PM -03 <1614802991>
+
+### Add new user
+
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+
 ## Tuesday, March 2, 2021, 11:09:55AM -03 <1614694195>
 
 ### Add a foreign key to an existing table
