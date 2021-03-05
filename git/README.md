@@ -45,3 +45,15 @@
 ### Git add only modify files
 
 - git add -u
+
+## Saturday, February 27, 2021, 5:13:50PM -03 <1614456830>
+
+- git remote show origin
+
+## How to delete commits from a branch
+
+```
+$ git reset --hard HEAD~
+$ git reset --hard <sha1-commit-id>
+$ git push origin HEAD --force
+```
