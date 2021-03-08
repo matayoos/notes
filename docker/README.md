@@ -1,3 +1,18 @@
+## Monday, March 8, 2021, 4:08:03PM -03 <1615230483>
+
+```
+$ docker inspect stupefied_turing | grep IPAddress
+  "IPAddress": "172.17.0.4",
+  "SecondaryIPAddresses": null,
+$ docker inspect --format {{.NetworkSettings.IPAddress}} stupefied_turing
+  172.17.0.4
+
+```
+### Cleaning up stopped containers
+
+```
+$ docker rm -v $(docker ps -aq -f status=exited)
+```
 # Docker Notes
 
 ## Basics commands

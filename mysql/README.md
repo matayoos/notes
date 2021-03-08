@@ -1,3 +1,22 @@
+## Monday, March 8, 2021, 5:44:51PM -03 <1615236291>
+
+### Export databases
+
+> mysqldump -u [username] -p [database name] > [database name].sql
+
+### Import databases
+
+> CREATE DATABASE newdatabase;
+> mysql -u [username] -p newdatabase < [database name].sql
+
+### Alter table
+
+> ALTER TABLE table_name MODIFY COLUMN column_name datatype;
+
+### Create table
+
+> CREATE TABLE name ();
+
 ## Wednesday, March 3, 2021, 5:23:11PM -03 <1614802991>
 
 ### Add new user
