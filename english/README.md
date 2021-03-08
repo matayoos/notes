@@ -1,3 +1,18 @@
+## Monday, March 8, 2021, 10:11:30AM -03 <1615209090>
+
+### to
+
+- Infinitive
+```
+She needs *to go*...
+```
+
+- Preposition
+```
+... *to* the store
+
+```
+
 ## Tuesday, March 2, 2021, 2:28:09PM -03 <1614706089>
 
 ### Saiyng number in th hundreds and thousands
