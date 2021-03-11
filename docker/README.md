@@ -1,3 +1,7 @@
+## Wednesday, March 10, 2021, 5:46:31PM -03 <1615409191>
+
+> $ docker logs *container_name*
+
 ## Monday, March 8, 2021, 4:08:03PM -03 <1615230483>
 
 ```

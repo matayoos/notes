@@ -1,3 +1,21 @@
+## Tuesday, March 9, 2021, 2:00:59PM -03 <1615309259>
+
+### Create symfony applications
+
+- Run this if you are building a tradicional web application
+
+> $ composer create-project symfony/website-skeleton my_project_name
+
+- Run this if you are building a microservice, console application or API
+
+> $ composer create-project symfony/skeleton my_project_name 
+
+
+## Tuesday, March 9, 2021, 11:41:07AM -03 <1615300867>
+
+> symfony server:start *-d*
+> symfony server:log
+
 ## Wednesday, March 3, 2021, 2:50:41PM -03 <1614793841>
 
 - This doesn't work for me
