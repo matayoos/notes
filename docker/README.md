@@ -1,3 +1,31 @@
+## Friday, March 12, 2021, 10:40:46AM -03 <1615556446>
+
+- Exploring Docker container
+ 
+```bash
+$ docker exec -t -i mycontainer /bin/bash
+```
+- Address already in use
+
+Just chance to other port in the docker-compose.yml file.
+
+## Thursday, March 11, 2021, 11:31:27AM -03 <1615473087>
+
+Alternatively, the -P argument can be used to tell Docker to auto‐
+matically select a free port to forward to on the host.
+
+```
+$ ID=$(docker run -d -P nginx)
+$ docker port $ID 80
+0.0.0.0:32771
+$ curl localhost:32771
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+...
+```
+
 ## Wednesday, March 10, 2021, 5:46:31PM -03 <1615409191>
 
 > $ docker logs *container_name*
