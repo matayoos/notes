@@ -1,3 +1,28 @@
+## Wednesday, March 17, 2021, 2:11:37PM -03 <1616001097>
+
+### Match Beginning String PatternsPassed
+
+In an earlier challenge, you used the caret character (^) inside a character set to create a negated character set in the form [^thingsThatWillNotBeMatched]. Outside of a character set, the caret is used to search for patterns at the beginning of strings.
+
+```javascript
+let firstString = "Ricky is first and can be found.";
+let firstRegex = /^Ricky/;
+firstRegex.test(firstString);
+let notFirst = "You can't find Ricky now.";
+firstRegex.test(notFirst);
+```
+### Match Ending String Patterns
+
+You can search the end of strings using the dollar sign character $ at the end of the regex.
+
+```javascript
+let theEnding = "This is a never ending story";
+let storyRegex = /story$/;
+storyRegex.test(theEnding);
+let noEnding = "Sometimes a story will have to end";
+storyRegex.test(noEnding);
+```
+
 ## Wednesday, March 17, 2021, 8:28:09AM -03 <1615980489>
 
 Searching for a literal match of the string
@@ -85,8 +110,6 @@ Math Non-Numbers = \D
 To create a negated character you place a caret character (^) after the opening bracket and before the characters you do not want to match.
 
 > /[^aeiou]/gi
-
-Outside of a character set, the caret is used to search for patterns at the beginning of strings.
 
 ```javascript
 let firstString = "Ricky is first and can be found.";
