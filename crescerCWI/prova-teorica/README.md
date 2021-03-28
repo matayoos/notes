@@ -1,3 +1,62 @@
+## Sunday, March 28, 2021, 5:19:20PM -03 <1616962760>
+
+### Regex tag +
+
+/\w matches any word character (equivalent to [a-zA-Z0-9\_])
++ matches the previous token between one and unlimited times, as many times as possible, giving back as needed (greedy)
+
+## Sunday, March 28, 2021, 5:10:54PM -03 <1616962254>
+
+### String.prototype.trim()
+
+The trim() method removes whitespace from both ends of a string. Whitespace in this context is all the whitespace characters (space, tab, no-break space, etc.) and all the line terminator characters (LF, CR, etc.).
+
+```javascript
+const greeting = '   Hello world!   ';
+
+console.log(greeting);
+// expected output: "   Hello world!   ";
+
+console.log(greeting.trim());
+// expected output: "Hello world!";
+```
+
+## Thursday, March 25, 2021, 2:39:57PM -03 <1616693997>
+
+### Insert things in the middle of an array
+
+```javascript
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// inserts at index 1
+console.log(months);
+// expected output: Array ["Jan", "Feb", "March", "April", "June"
+```
+
+```javascript
+let arrDeletedItems = arr.splice(start[, deleteCount[, item1[, item2[, ...]]]])
+```
+
+> deleteCount: An integer indicating the number of elements in the array to remove from start.
+
+### Insert an array in an array
+
+- Insert array values
+
+> ...array
+
+- Insert the whole array
+
+> array
+
+## Thursday, March 25, 2021, 11:20:22AM -03 <1616682022>
+
+### find()
+
+The find() method returns the value of the **first element in the provided
+array** that satisfies the provided testing function. If no values satisfy the
+testing function, **undefined** is returned.
+
 ## Wednesday, March 17, 2021, 2:11:37PM -03 <1616001097>
 
 ### Match Beginning String PatternsPassed
