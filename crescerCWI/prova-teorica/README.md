@@ -1,3 +1,13 @@
+## Tuesday, April 6, 2021, 2:22:12PM -03 <1617729732>
+
+- Remove all the vowels
+
+```bash
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
+```
+
 ## Sunday, March 28, 2021, 5:19:20PM -03 <1616962760>
 
 ### Regex tag +
