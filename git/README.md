@@ -53,7 +53,15 @@
 ## How to delete commits from a branch
 
 ```
+Return to the last commit
+
 $ git reset --hard HEAD~
+
+Return to a commit as you choose
+
 $ git reset --hard <sha1-commit-id>
+
+To reset your repo you must force push
+
 $ git push origin HEAD --force
 ```

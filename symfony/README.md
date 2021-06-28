@@ -1,3 +1,23 @@
+## Tuesday, April 13, 2021, 9:48:31AM -03 <1618318111>
+
+### Preparing for Production
+
+Let's initialize a SymfonyCloud project:
+
+```bash
+$ symfony project:init
+
+...
+Project configured
+
+The following files were created automatically:
+ /home/matayoos/repos/demo/guestbook/.symfony/services.yaml
+ /home/matayoos/repos/demo/guestbook/.symfony/routes.yaml
+ /home/matayoos/repos/demo/guestbook/php.ini
+ /home/matayoos/repos/demo/guestbook/.symfony.cloud.yaml
+...
+```
+
 ## Tuesday, March 9, 2021, 2:00:59PM -03 <1615309259>
 
 ### Create symfony applications
@@ -32,7 +52,7 @@ $ composer require symfony/web-server-bundle --dev ^4.4.2
 
 *"Using the WebserverBundle is deprecated since Symfony 4.4."* Oh my...
 
-![Symfony server](https://symfony.com/doc/4.4/setup/symfony_server.html) new
+[Symfony server](https://symfony.com/doc/4.4/setup/symfony_server.html) new
 way.
 
 ## Wednesday, March 3, 2021, 9:34:21AM -03 <1614774861>

@@ -1,3 +1,27 @@
+## Monday, April 19, 2021, 9:48:24AM -03 <1618836504>
+
+find()
+> returns the value of the first element in the provided array that satisfies
+> the provided testing function. If no values satisfy the testing function, undefined is returned
+
+```js
+const array1 = [5, 12, 8, 130, 44];
+const found = array1.find(element => element > 10);
+console.log(found);
+// expected output: 12
+```
+
+indexOf() & lastIndexOf()
+
+## Thursday, April 15, 2021, 3:08:40PM -03 <1618510120>
+
+### Usefull functions
+
+endsWith()
+
+> The endsWith() method determines whether a string ends with the characters
+> of a specified string, returning true or false as appropriate.
+
 ## Tuesday, April 6, 2021, 2:22:12PM -03 <1617729732>
 
 - Remove all the vowels
